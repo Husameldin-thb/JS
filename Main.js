@@ -1,5 +1,4 @@
-# JS
- // Level 1: Intorduction
+// Level 1: Intorduction
 
 //Lesson one: Document, Console, Windows
 
@@ -80,7 +79,16 @@ console.log(0.025* Zakah + ' SDG');
 /*name= window.prompt('enter your name');
 console.log (name);
 age = window.prompt ('enter your age');
-console.log(age); */
+console.log(age);
+
+let firstname = 'Husam';
+firstname = window.prompt ('enter your first name');
+let lastname =  window.prompt('enter your last name');
+console.log ('hallo '+ firstname + ' ' + lastname);
+let age = window.prompt ('enter your age');
+window.alert  ('you are above 18 and your age is ' +  age);
+
+*/
 
 // Level 3: String: 
 //lesson 1: Change Number to String: 
