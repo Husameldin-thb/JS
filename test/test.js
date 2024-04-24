@@ -142,12 +142,18 @@ let age = window.prompt ('enter your age');
 window.alert  ('you are above 18 and your age is ' +  age);
 */
 
-let name3 = 'Husameldin Osman Awad';
+let name3 = 'Husameldin Osman Awad'
 console.log (name3.indexOf('H'));
-console.log (name3.length);
-console.log(name3[2]);
-console.log(name3.repeat(3));
-console.log (name3.includes('1'));
+console.log(name3.length);
+console.log(name3.repeat(3)); 
+console.log(name3 [2]);
+console.log(name3.search('Os'));
 
+window.alert ('please enter the following information, to make sure you are above 18+')
+let firstname = window.prompt ('enter your first name please');
+let lastname = window.prompt ('enter your last name please');
+console.log('Hello in our site ' + firstname + ' ' + lastname);
+let age = window.prompt('enter Your age');
+console.log ('your age is ' + age);
+window.alert ('willcome '+ firstname + ' you confirmed you are above 18'); 
 
-console.log ('test github');
