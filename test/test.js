@@ -149,3 +149,5 @@ console.log(name3[2]);
 console.log(name3.repeat(3));
 console.log (name3.includes('1'));
 
+
+console.log ('test github');
